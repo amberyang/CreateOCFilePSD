@@ -1,2 +1,2 @@
 # CreateOCFilePSD
-根据 psd 文件，生成 oc 文件
+解析 psd 文件，生成 OC 文件和对应的OC 视图
