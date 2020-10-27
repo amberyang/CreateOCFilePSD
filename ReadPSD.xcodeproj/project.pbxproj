@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9600048D23B2190F00A6A7EE /* YLEffectStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 9600048C23B2190F00A6A7EE /* YLEffectStroke.m */; };
+		9603BCAD2473B42600A94784 /* YLClassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9603BCAC2473B42600A94784 /* YLClassObject.m */; };
+		9605919A22F18499005F180F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9605919922F18499005F180F /* AppDelegate.m */; };
+		9605919D22F18499005F180F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9605919C22F18499005F180F /* ViewController.m */; };
+		960591A022F18499005F180F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9605919E22F18499005F180F /* Main.storyboard */; };
+		960591A222F1849B005F180F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960591A122F1849B005F180F /* Assets.xcassets */; };
+		960591A522F1849B005F180F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960591A322F1849B005F180F /* LaunchScreen.storyboard */; };
+		960591A822F1849B005F180F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960591A722F1849B005F180F /* main.m */; };
+		960591B222F1849B005F180F /* ReadPSDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960591B122F1849B005F180F /* ReadPSDTests.m */; };
+		960591BD22F1849B005F180F /* ReadPSDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960591BC22F1849B005F180F /* ReadPSDUITests.m */; };
+		963E51D32399114B009800AF /* YLLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E517D2399114B009800AF /* YLLayerInfo.m */; };
+		963E51D42399114B009800AF /* YLImageProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51812399114B009800AF /* YLImageProcess.m */; };
+		963E51D52399114B009800AF /* YLImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51832399114B009800AF /* YLImageInfo.m */; };
+		963E51D62399114B009800AF /* YLPascalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51842399114B009800AF /* YLPascalString.m */; };
+		963E51D72399114B009800AF /* YLRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51852399114B009800AF /* YLRGBA.m */; };
+		963E51D82399114B009800AF /* YLTextInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51872399114B009800AF /* YLTextInfo.m */; };
+		963E51D92399114B009800AF /* YLDataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51892399114B009800AF /* YLDataProcess.m */; };
+		963E51DA2399114B009800AF /* YLPSDColorModeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E518E2399114B009800AF /* YLPSDColorModeInfo.m */; };
+		963E51DB2399114B009800AF /* YLPSDColorModeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E518F2399114B009800AF /* YLPSDColorModeData.m */; };
+		963E51DC2399114B009800AF /* YLPSDBaseSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51912399114B009800AF /* YLPSDBaseSection.m */; };
+		963E51DD2399114B009800AF /* YLPSDLayerAndMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51932399114B009800AF /* YLPSDLayerAndMask.m */; };
+		963E51DE2399114B009800AF /* YLPSDLayerAndMaskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51942399114B009800AF /* YLPSDLayerAndMaskInfo.m */; };
+		963E51DF2399114B009800AF /* YLPSDChannelImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51962399114B009800AF /* YLPSDChannelImage.m */; };
+		963E51E02399114B009800AF /* YLPSDLayerInfoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51972399114B009800AF /* YLPSDLayerInfoInfo.m */; };
+		963E51E12399114B009800AF /* YLPSDChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E519C2399114B009800AF /* YLPSDChannel.m */; };
+		963E51E22399114B009800AF /* YLPSDChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E519D2399114B009800AF /* YLPSDChannelInfo.m */; };
+		963E51E52399114B009800AF /* YLPSDLayerBlendRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51A52399114B009800AF /* YLPSDLayerBlendRange.m */; };
+		963E51E62399114B009800AF /* YLPSDLayerBlendRangeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51A62399114B009800AF /* YLPSDLayerBlendRangeInfo.m */; };
+		963E51E72399114B009800AF /* YLPSDLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51AA2399114B009800AF /* YLPSDLayerInfo.m */; };
+		963E51E82399114B009800AF /* YLPSDLayerMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51AE2399114B009800AF /* YLPSDLayerMask.m */; };
+		963E51E92399114B009800AF /* YLPSDLayerMaskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51AF2399114B009800AF /* YLPSDLayerMaskInfo.m */; };
+		963E51EA2399114B009800AF /* YLPSDGlobalLayerMaskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51B32399114B009800AF /* YLPSDGlobalLayerMaskInfo.m */; };
+		963E51EB2399114B009800AF /* YLPSDGlobalLayerMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51B62399114B009800AF /* YLPSDGlobalLayerMask.m */; };
+		963E51EC2399114B009800AF /* YLPSDAdditionalLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51B82399114B009800AF /* YLPSDAdditionalLayer.m */; };
+		963E51ED2399114B009800AF /* YLPSDAdditionalLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51BB2399114B009800AF /* YLPSDAdditionalLayerInfo.m */; };
+		963E51EE2399114B009800AF /* YLPSDImageDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51C02399114B009800AF /* YLPSDImageDataInfo.m */; };
+		963E51EF2399114B009800AF /* YLPSDImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51C12399114B009800AF /* YLPSDImageData.m */; };
+		963E51F02399114B009800AF /* YLPSDDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51C22399114B009800AF /* YLPSDDescriptor.m */; };
+		963E51F12399114B009800AF /* YLPSDEngineData.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51C32399114B009800AF /* YLPSDEngineData.m */; };
+		963E51F22399114B009800AF /* YLPSDImageResourceBlockInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51C72399114B009800AF /* YLPSDImageResourceBlockInfo.m */; };
+		963E51F32399114B009800AF /* YLPSDImageResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51CA2399114B009800AF /* YLPSDImageResource.m */; };
+		963E51F42399114B009800AF /* YLPSDImageResourceBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51CC2399114B009800AF /* YLPSDImageResourceBlock.m */; };
+		963E51F52399114B009800AF /* YLPSDImageResourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51CD2399114B009800AF /* YLPSDImageResourceInfo.m */; };
+		963E51F62399114B009800AF /* YLPSDHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51D12399114B009800AF /* YLPSDHeader.m */; };
+		963E51F72399114B009800AF /* YLPSDHeaderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51D22399114B009800AF /* YLPSDHeaderInfo.m */; };
+		963E51FC239DE946009800AF /* YLPSDLayerRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51F8239DE946009800AF /* YLPSDLayerRecord.m */; };
+		963E51FD239DE946009800AF /* YLPSDLayerRecordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51FB239DE946009800AF /* YLPSDLayerRecordInfo.m */; };
+		963E5200239E3370009800AF /* YLFileProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E51FF239E3370009800AF /* YLFileProcess.m */; };
+		963E5203239E38FD009800AF /* YLEffectLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E5202239E38FD009800AF /* YLEffectLayerInfo.m */; };
+		965772F923A9F04C009D326F /* YLBGRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 965772F823A9F04C009D326F /* YLBGRGBA.m */; };
+		965772FC23AA15CC009D326F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965772FB23AA15CC009D326F /* CoreImage.framework */; };
+		965772FF23AB26C6009D326F /* YLGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 965772FE23AB26C6009D326F /* YLGradient.m */; };
+		9657730223AB4494009D326F /* YLCustomStopsGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657730123AB4494009D326F /* YLCustomStopsGradient.m */; };
+		9657730523AB4538009D326F /* YLColorStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657730423AB4538009D326F /* YLColorStop.m */; };
+		9657730823AB4D66009D326F /* YLRGBAGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657730723AB4D66009D326F /* YLRGBAGradient.m */; };
+		9657731023AC7232009D326F /* YLCircularRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657730F23AC7232009D326F /* YLCircularRadius.m */; };
+		9657731323ACC41D009D326F /* YLEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657731223ACC41C009D326F /* YLEffect.m */; };
+		9657731623B0B3FC009D326F /* YLInsideShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657731523B0B3FC009D326F /* YLInsideShadow.m */; };
+		9657731823B0C183009D326F /* test.psd in Resources */ = {isa = PBXBuildFile; fileRef = 9657731723B0C182009D326F /* test.psd */; };
+		9679E5C82488C4A900F5CE3C /* UIImage+Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5C72488C4A900F5CE3C /* UIImage+Overlay.m */; };
+		9679E5CC2488C52000F5CE3C /* YLCodeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5CB2488C52000F5CE3C /* YLCodeBuilder.m */; };
+		9679E5CF2489E67600F5CE3C /* YLMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5CE2489E67600F5CE3C /* YLMethodManager.m */; };
+		9679E5D4248E474E00F5CE3C /* YLCodeBuilder+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5D3248E474E00F5CE3C /* YLCodeBuilder+Effect.m */; };
+		9679E5DA248F7AF100F5CE3C /* YLStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5D9248F7AF100F5CE3C /* YLStroke.m */; };
+		9679E5DD248F810200F5CE3C /* YLCodeBuilder+OriginEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5DC248F810200F5CE3C /* YLCodeBuilder+OriginEffect.m */; };
+		9679E5E024922EE500F5CE3C /* YLCodeBuilder+Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E5DF24922EE500F5CE3C /* YLCodeBuilder+Shape.m */; };
+		9679E61F2493307100F5CE3C /* YLMethodManager+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E61E2493307100F5CE3C /* YLMethodManager+Init.m */; };
+		9679E63624971C3500F5CE3C /* YLMethodManager+ReIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E63524971C3500F5CE3C /* YLMethodManager+ReIndex.m */; };
+		9679E6D9249C633700F5CE3C /* YLMethodManager+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9679E6D8249C633700F5CE3C /* YLMethodManager+Layout.m */; };
+		96C17C4623A74514007F0CA3 /* test2.psd in Resources */ = {isa = PBXBuildFile; fileRef = 96C17C4523A74514007F0CA3 /* test2.psd */; };
+		96CD2E082547BB3700175D6A /* viewbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2E032547BB3600175D6A /* viewbg.png */; };
+		96CD2E092547BB3700175D6A /* textbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2E042547BB3600175D6A /* textbg.png */; };
+		96CD2E0A2547BB3700175D6A /* Soldview.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2E052547BB3600175D6A /* Soldview.m */; };
+		96CD2E0B2547BB3700175D6A /* buttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2E062547BB3600175D6A /* buttonbg.png */; };
+		96CE2B1D247F9E4C0020A983 /* UIView+SecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE2B1C247F9E4C0020A983 /* UIView+SecureCoding.m */; };
+		96CE2B20247FACA70020A983 /* UIImageView+SecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE2B1F247FACA70020A983 /* UIImageView+SecureCoding.m */; };
+		96D0922D24AC41690059F388 /* YLPropertyT.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0922C24AC41690059F388 /* YLPropertyT.m */; };
+		96D0923024AC99840059F388 /* YLClassT.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0922F24AC99840059F388 /* YLClassT.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960591AE22F1849B005F180F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9605918D22F18499005F180F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9605919422F18499005F180F;
+			remoteInfo = ReadPSD;
+		};
+		960591B922F1849B005F180F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9605918D22F18499005F180F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9605919422F18499005F180F;
+			remoteInfo = ReadPSD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9600048B23B2190F00A6A7EE /* YLEffectStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEffectStroke.h; sourceTree = "<group>"; };
+		9600048C23B2190F00A6A7EE /* YLEffectStroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEffectStroke.m; sourceTree = "<group>"; };
+		9603BCAB2473B42600A94784 /* YLClassObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLClassObject.h; sourceTree = "<group>"; };
+		9603BCAC2473B42600A94784 /* YLClassObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLClassObject.m; sourceTree = "<group>"; };
+		9605919522F18499005F180F /* ReadPSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadPSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9605919822F18499005F180F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9605919922F18499005F180F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9605919B22F18499005F180F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9605919C22F18499005F180F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9605919F22F18499005F180F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960591A122F1849B005F180F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960591A422F1849B005F180F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960591A622F1849B005F180F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960591A722F1849B005F180F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		960591AD22F1849B005F180F /* ReadPSDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadPSDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960591B122F1849B005F180F /* ReadPSDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPSDTests.m; sourceTree = "<group>"; };
+		960591B322F1849B005F180F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960591B822F1849B005F180F /* ReadPSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadPSDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960591BC22F1849B005F180F /* ReadPSDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPSDUITests.m; sourceTree = "<group>"; };
+		960591BE22F1849B005F180F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963E517C2399114B009800AF /* YLTextInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTextInfo.h; sourceTree = "<group>"; };
+		963E517D2399114B009800AF /* YLLayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLayerInfo.m; sourceTree = "<group>"; };
+		963E517E2399114B009800AF /* YLRGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRGBA.h; sourceTree = "<group>"; };
+		963E517F2399114B009800AF /* YLPascalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPascalString.h; sourceTree = "<group>"; };
+		963E51802399114B009800AF /* YLImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageInfo.h; sourceTree = "<group>"; };
+		963E51812399114B009800AF /* YLImageProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageProcess.m; sourceTree = "<group>"; };
+		963E51822399114B009800AF /* YLDataProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDataProcess.h; sourceTree = "<group>"; };
+		963E51832399114B009800AF /* YLImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageInfo.m; sourceTree = "<group>"; };
+		963E51842399114B009800AF /* YLPascalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPascalString.m; sourceTree = "<group>"; };
+		963E51852399114B009800AF /* YLRGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRGBA.m; sourceTree = "<group>"; };
+		963E51862399114B009800AF /* YLLayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLayerInfo.h; sourceTree = "<group>"; };
+		963E51872399114B009800AF /* YLTextInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTextInfo.m; sourceTree = "<group>"; };
+		963E51882399114B009800AF /* YLImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageProcess.h; sourceTree = "<group>"; };
+		963E51892399114B009800AF /* YLDataProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDataProcess.m; sourceTree = "<group>"; };
+		963E518B2399114B009800AF /* YLPSDDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDDescriptor.h; sourceTree = "<group>"; };
+		963E518D2399114B009800AF /* YLPSDColorModeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDColorModeData.h; sourceTree = "<group>"; };
+		963E518E2399114B009800AF /* YLPSDColorModeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDColorModeInfo.m; sourceTree = "<group>"; };
+		963E518F2399114B009800AF /* YLPSDColorModeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDColorModeData.m; sourceTree = "<group>"; };
+		963E51902399114B009800AF /* YLPSDColorModeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDColorModeInfo.h; sourceTree = "<group>"; };
+		963E51912399114B009800AF /* YLPSDBaseSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDBaseSection.m; sourceTree = "<group>"; };
+		963E51932399114B009800AF /* YLPSDLayerAndMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerAndMask.m; sourceTree = "<group>"; };
+		963E51942399114B009800AF /* YLPSDLayerAndMaskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerAndMaskInfo.m; sourceTree = "<group>"; };
+		963E51962399114B009800AF /* YLPSDChannelImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDChannelImage.m; sourceTree = "<group>"; };
+		963E51972399114B009800AF /* YLPSDLayerInfoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerInfoInfo.m; sourceTree = "<group>"; };
+		963E51982399114B009800AF /* YLPSDLayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerInfo.h; sourceTree = "<group>"; };
+		963E519C2399114B009800AF /* YLPSDChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDChannel.m; sourceTree = "<group>"; };
+		963E519D2399114B009800AF /* YLPSDChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDChannelInfo.m; sourceTree = "<group>"; };
+		963E51A02399114B009800AF /* YLPSDChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDChannelInfo.h; sourceTree = "<group>"; };
+		963E51A12399114B009800AF /* YLPSDChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDChannel.h; sourceTree = "<group>"; };
+		963E51A32399114B009800AF /* YLPSDLayerBlendRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerBlendRange.h; sourceTree = "<group>"; };
+		963E51A42399114B009800AF /* YLPSDLayerBlendRangeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerBlendRangeInfo.h; sourceTree = "<group>"; };
+		963E51A52399114B009800AF /* YLPSDLayerBlendRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerBlendRange.m; sourceTree = "<group>"; };
+		963E51A62399114B009800AF /* YLPSDLayerBlendRangeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerBlendRangeInfo.m; sourceTree = "<group>"; };
+		963E51A82399114B009800AF /* YLPSDChannelImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDChannelImage.h; sourceTree = "<group>"; };
+		963E51A92399114B009800AF /* YLPSDLayerInfoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerInfoInfo.h; sourceTree = "<group>"; };
+		963E51AA2399114B009800AF /* YLPSDLayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerInfo.m; sourceTree = "<group>"; };
+		963E51AB2399114B009800AF /* YLPSDLayerAndMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerAndMask.h; sourceTree = "<group>"; };
+		963E51AD2399114B009800AF /* YLPSDLayerMaskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerMaskInfo.h; sourceTree = "<group>"; };
+		963E51AE2399114B009800AF /* YLPSDLayerMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerMask.m; sourceTree = "<group>"; };
+		963E51AF2399114B009800AF /* YLPSDLayerMaskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerMaskInfo.m; sourceTree = "<group>"; };
+		963E51B02399114B009800AF /* YLPSDLayerMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerMask.h; sourceTree = "<group>"; };
+		963E51B12399114B009800AF /* YLPSDLayerAndMaskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerAndMaskInfo.h; sourceTree = "<group>"; };
+		963E51B32399114B009800AF /* YLPSDGlobalLayerMaskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDGlobalLayerMaskInfo.m; sourceTree = "<group>"; };
+		963E51B42399114B009800AF /* YLPSDGlobalLayerMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDGlobalLayerMask.h; sourceTree = "<group>"; };
+		963E51B52399114B009800AF /* YLPSDGlobalLayerMaskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDGlobalLayerMaskInfo.h; sourceTree = "<group>"; };
+		963E51B62399114B009800AF /* YLPSDGlobalLayerMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDGlobalLayerMask.m; sourceTree = "<group>"; };
+		963E51B82399114B009800AF /* YLPSDAdditionalLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDAdditionalLayer.m; sourceTree = "<group>"; };
+		963E51B92399114B009800AF /* YLPSDAdditionalLayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDAdditionalLayerInfo.h; sourceTree = "<group>"; };
+		963E51BA2399114B009800AF /* YLPSDAdditionalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDAdditionalLayer.h; sourceTree = "<group>"; };
+		963E51BB2399114B009800AF /* YLPSDAdditionalLayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDAdditionalLayerInfo.m; sourceTree = "<group>"; };
+		963E51BC2399114B009800AF /* YLPSDEngineData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDEngineData.h; sourceTree = "<group>"; };
+		963E51BE2399114B009800AF /* YLPSDImageDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDImageDataInfo.h; sourceTree = "<group>"; };
+		963E51BF2399114B009800AF /* YLPSDImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDImageData.h; sourceTree = "<group>"; };
+		963E51C02399114B009800AF /* YLPSDImageDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDImageDataInfo.m; sourceTree = "<group>"; };
+		963E51C12399114B009800AF /* YLPSDImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDImageData.m; sourceTree = "<group>"; };
+		963E51C22399114B009800AF /* YLPSDDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDDescriptor.m; sourceTree = "<group>"; };
+		963E51C32399114B009800AF /* YLPSDEngineData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDEngineData.m; sourceTree = "<group>"; };
+		963E51C42399114B009800AF /* YLPSDBaseSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDBaseSection.h; sourceTree = "<group>"; };
+		963E51C62399114B009800AF /* YLPSDImageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDImageResource.h; sourceTree = "<group>"; };
+		963E51C72399114B009800AF /* YLPSDImageResourceBlockInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDImageResourceBlockInfo.m; sourceTree = "<group>"; };
+		963E51C82399114B009800AF /* YLPSDImageResourceBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDImageResourceBlock.h; sourceTree = "<group>"; };
+		963E51C92399114B009800AF /* YLPSDImageResourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDImageResourceInfo.h; sourceTree = "<group>"; };
+		963E51CA2399114B009800AF /* YLPSDImageResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDImageResource.m; sourceTree = "<group>"; };
+		963E51CB2399114B009800AF /* YLPSDImageResourceBlockInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDImageResourceBlockInfo.h; sourceTree = "<group>"; };
+		963E51CC2399114B009800AF /* YLPSDImageResourceBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDImageResourceBlock.m; sourceTree = "<group>"; };
+		963E51CD2399114B009800AF /* YLPSDImageResourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDImageResourceInfo.m; sourceTree = "<group>"; };
+		963E51CF2399114B009800AF /* YLPSDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDHeader.h; sourceTree = "<group>"; };
+		963E51D02399114B009800AF /* YLPSDHeaderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDHeaderInfo.h; sourceTree = "<group>"; };
+		963E51D12399114B009800AF /* YLPSDHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDHeader.m; sourceTree = "<group>"; };
+		963E51D22399114B009800AF /* YLPSDHeaderInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDHeaderInfo.m; sourceTree = "<group>"; };
+		963E51F8239DE946009800AF /* YLPSDLayerRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerRecord.m; sourceTree = "<group>"; };
+		963E51F9239DE946009800AF /* YLPSDLayerRecordInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerRecordInfo.h; sourceTree = "<group>"; };
+		963E51FA239DE946009800AF /* YLPSDLayerRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPSDLayerRecord.h; sourceTree = "<group>"; };
+		963E51FB239DE946009800AF /* YLPSDLayerRecordInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPSDLayerRecordInfo.m; sourceTree = "<group>"; };
+		963E51FE239E3370009800AF /* YLFileProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLFileProcess.h; sourceTree = "<group>"; };
+		963E51FF239E3370009800AF /* YLFileProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFileProcess.m; sourceTree = "<group>"; };
+		963E5201239E38FD009800AF /* YLEffectLayerInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEffectLayerInfo.h; sourceTree = "<group>"; };
+		963E5202239E38FD009800AF /* YLEffectLayerInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEffectLayerInfo.m; sourceTree = "<group>"; };
+		9651B45F24DC103A00420D74 /* GloableHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloableHeader.h; sourceTree = "<group>"; };
+		965772F723A9F04C009D326F /* YLBGRGBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBGRGBA.h; sourceTree = "<group>"; };
+		965772F823A9F04C009D326F /* YLBGRGBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBGRGBA.m; sourceTree = "<group>"; };
+		965772FB23AA15CC009D326F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		965772FD23AB26C6009D326F /* YLGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLGradient.h; sourceTree = "<group>"; };
+		965772FE23AB26C6009D326F /* YLGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLGradient.m; sourceTree = "<group>"; };
+		9657730023AB4494009D326F /* YLCustomStopsGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCustomStopsGradient.h; sourceTree = "<group>"; };
+		9657730123AB4494009D326F /* YLCustomStopsGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCustomStopsGradient.m; sourceTree = "<group>"; };
+		9657730323AB4538009D326F /* YLColorStop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLColorStop.h; sourceTree = "<group>"; };
+		9657730423AB4538009D326F /* YLColorStop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLColorStop.m; sourceTree = "<group>"; };
+		9657730623AB4D66009D326F /* YLRGBAGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRGBAGradient.h; sourceTree = "<group>"; };
+		9657730723AB4D66009D326F /* YLRGBAGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRGBAGradient.m; sourceTree = "<group>"; };
+		9657730E23AC7232009D326F /* YLCircularRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCircularRadius.h; sourceTree = "<group>"; };
+		9657730F23AC7232009D326F /* YLCircularRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCircularRadius.m; sourceTree = "<group>"; };
+		9657731123ACC41C009D326F /* YLEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEffect.h; sourceTree = "<group>"; };
+		9657731223ACC41C009D326F /* YLEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEffect.m; sourceTree = "<group>"; };
+		9657731423B0B3FC009D326F /* YLInsideShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLInsideShadow.h; sourceTree = "<group>"; };
+		9657731523B0B3FC009D326F /* YLInsideShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLInsideShadow.m; sourceTree = "<group>"; };
+		9657731723B0C182009D326F /* test.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.psd; sourceTree = "<group>"; };
+		9679E5C62488C4A900F5CE3C /* UIImage+Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Overlay.h"; sourceTree = "<group>"; };
+		9679E5C72488C4A900F5CE3C /* UIImage+Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Overlay.m"; sourceTree = "<group>"; };
+		9679E5CA2488C52000F5CE3C /* YLCodeBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCodeBuilder.h; sourceTree = "<group>"; };
+		9679E5CB2488C52000F5CE3C /* YLCodeBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCodeBuilder.m; sourceTree = "<group>"; };
+		9679E5CD2489E67600F5CE3C /* YLMethodManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMethodManager.h; sourceTree = "<group>"; };
+		9679E5CE2489E67600F5CE3C /* YLMethodManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMethodManager.m; sourceTree = "<group>"; };
+		9679E5D2248E474E00F5CE3C /* YLCodeBuilder+Effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLCodeBuilder+Effect.h"; sourceTree = "<group>"; };
+		9679E5D3248E474E00F5CE3C /* YLCodeBuilder+Effect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLCodeBuilder+Effect.m"; sourceTree = "<group>"; };
+		9679E5D8248F7AF100F5CE3C /* YLStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLStroke.h; sourceTree = "<group>"; };
+		9679E5D9248F7AF100F5CE3C /* YLStroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLStroke.m; sourceTree = "<group>"; };
+		9679E5DB248F810200F5CE3C /* YLCodeBuilder+OriginEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLCodeBuilder+OriginEffect.h"; sourceTree = "<group>"; };
+		9679E5DC248F810200F5CE3C /* YLCodeBuilder+OriginEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLCodeBuilder+OriginEffect.m"; sourceTree = "<group>"; };
+		9679E5DE24922EE500F5CE3C /* YLCodeBuilder+Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLCodeBuilder+Shape.h"; sourceTree = "<group>"; };
+		9679E5DF24922EE500F5CE3C /* YLCodeBuilder+Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLCodeBuilder+Shape.m"; sourceTree = "<group>"; };
+		9679E61D2493307100F5CE3C /* YLMethodManager+Init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLMethodManager+Init.h"; sourceTree = "<group>"; };
+		9679E61E2493307100F5CE3C /* YLMethodManager+Init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLMethodManager+Init.m"; sourceTree = "<group>"; };
+		9679E63424971C3500F5CE3C /* YLMethodManager+ReIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLMethodManager+ReIndex.h"; sourceTree = "<group>"; };
+		9679E63524971C3500F5CE3C /* YLMethodManager+ReIndex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLMethodManager+ReIndex.m"; sourceTree = "<group>"; };
+		9679E6D7249C633700F5CE3C /* YLMethodManager+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLMethodManager+Layout.h"; sourceTree = "<group>"; };
+		9679E6D8249C633700F5CE3C /* YLMethodManager+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLMethodManager+Layout.m"; sourceTree = "<group>"; };
+		96C17C4523A74514007F0CA3 /* test2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.psd; sourceTree = "<group>"; };
+		96CD2E032547BB3600175D6A /* viewbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewbg.png; sourceTree = "<group>"; };
+		96CD2E042547BB3600175D6A /* textbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbg.png; sourceTree = "<group>"; };
+		96CD2E052547BB3600175D6A /* Soldview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soldview.m; sourceTree = "<group>"; };
+		96CD2E062547BB3600175D6A /* buttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbg.png; sourceTree = "<group>"; };
+		96CD2E072547BB3600175D6A /* Soldview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soldview.h; sourceTree = "<group>"; };
+		96CE2B1B247F9E4C0020A983 /* UIView+SecureCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SecureCoding.h"; sourceTree = "<group>"; };
+		96CE2B1C247F9E4C0020A983 /* UIView+SecureCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SecureCoding.m"; sourceTree = "<group>"; };
+		96CE2B1E247FACA70020A983 /* UIImageView+SecureCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SecureCoding.h"; sourceTree = "<group>"; };
+		96CE2B1F247FACA70020A983 /* UIImageView+SecureCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SecureCoding.m"; sourceTree = "<group>"; };
+		96D0922B24AC41690059F388 /* YLPropertyT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPropertyT.h; sourceTree = "<group>"; };
+		96D0922C24AC41690059F388 /* YLPropertyT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPropertyT.m; sourceTree = "<group>"; };
+		96D0922E24AC99840059F388 /* YLClassT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLClassT.h; sourceTree = "<group>"; };
+		96D0922F24AC99840059F388 /* YLClassT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLClassT.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9605919222F18499005F180F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965772FC23AA15CC009D326F /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960591AA22F1849B005F180F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960591B522F1849B005F180F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9605918C22F18499005F180F = {
+			isa = PBXGroup;
+			children = (
+				9605919722F18499005F180F /* ReadPSD */,
+				960591B022F1849B005F180F /* ReadPSDTests */,
+				960591BB22F1849B005F180F /* ReadPSDUITests */,
+				9605919622F18499005F180F /* Products */,
+				965772FA23AA15CB009D326F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9605919622F18499005F180F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9605919522F18499005F180F /* ReadPSD.app */,
+				960591AD22F1849B005F180F /* ReadPSDTests.xctest */,
+				960591B822F1849B005F180F /* ReadPSDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9605919722F18499005F180F /* ReadPSD */ = {
+			isa = PBXGroup;
+			children = (
+				9679E5C92488C4DA00F5CE3C /* Code */,
+				96CE2B1A247F9E2C0020A983 /* Category */,
+				96C17C4523A74514007F0CA3 /* test2.psd */,
+				9657731723B0C182009D326F /* test.psd */,
+				963E517B2399114B009800AF /* Global */,
+				963E518A2399114B009800AF /* PSDParse */,
+				9605919822F18499005F180F /* AppDelegate.h */,
+				9605919922F18499005F180F /* AppDelegate.m */,
+				9605919B22F18499005F180F /* ViewController.h */,
+				9605919C22F18499005F180F /* ViewController.m */,
+				9605919E22F18499005F180F /* Main.storyboard */,
+				960591A122F1849B005F180F /* Assets.xcassets */,
+				960591A322F1849B005F180F /* LaunchScreen.storyboard */,
+				960591A622F1849B005F180F /* Info.plist */,
+				960591A722F1849B005F180F /* main.m */,
+				9651B45F24DC103A00420D74 /* GloableHeader.h */,
+			);
+			path = ReadPSD;
+			sourceTree = "<group>";
+		};
+		960591B022F1849B005F180F /* ReadPSDTests */ = {
+			isa = PBXGroup;
+			children = (
+				960591B122F1849B005F180F /* ReadPSDTests.m */,
+				960591B322F1849B005F180F /* Info.plist */,
+			);
+			path = ReadPSDTests;
+			sourceTree = "<group>";
+		};
+		960591BB22F1849B005F180F /* ReadPSDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960591BC22F1849B005F180F /* ReadPSDUITests.m */,
+				960591BE22F1849B005F180F /* Info.plist */,
+			);
+			path = ReadPSDUITests;
+			sourceTree = "<group>";
+		};
+		963E517B2399114B009800AF /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				963E517C2399114B009800AF /* YLTextInfo.h */,
+				963E51872399114B009800AF /* YLTextInfo.m */,
+				963E517E2399114B009800AF /* YLRGBA.h */,
+				963E51852399114B009800AF /* YLRGBA.m */,
+				963E51802399114B009800AF /* YLImageInfo.h */,
+				963E51832399114B009800AF /* YLImageInfo.m */,
+				963E517F2399114B009800AF /* YLPascalString.h */,
+				963E51842399114B009800AF /* YLPascalString.m */,
+				963E51862399114B009800AF /* YLLayerInfo.h */,
+				963E517D2399114B009800AF /* YLLayerInfo.m */,
+				963E51882399114B009800AF /* YLImageProcess.h */,
+				963E51812399114B009800AF /* YLImageProcess.m */,
+				963E51822399114B009800AF /* YLDataProcess.h */,
+				963E51892399114B009800AF /* YLDataProcess.m */,
+				963E51FE239E3370009800AF /* YLFileProcess.h */,
+				963E51FF239E3370009800AF /* YLFileProcess.m */,
+				965772F723A9F04C009D326F /* YLBGRGBA.h */,
+				965772F823A9F04C009D326F /* YLBGRGBA.m */,
+				965772FD23AB26C6009D326F /* YLGradient.h */,
+				965772FE23AB26C6009D326F /* YLGradient.m */,
+				9657731423B0B3FC009D326F /* YLInsideShadow.h */,
+				9657731523B0B3FC009D326F /* YLInsideShadow.m */,
+				9657731123ACC41C009D326F /* YLEffect.h */,
+				9657731223ACC41C009D326F /* YLEffect.m */,
+				9657730623AB4D66009D326F /* YLRGBAGradient.h */,
+				9657730723AB4D66009D326F /* YLRGBAGradient.m */,
+				9657730E23AC7232009D326F /* YLCircularRadius.h */,
+				9657730F23AC7232009D326F /* YLCircularRadius.m */,
+				9657730023AB4494009D326F /* YLCustomStopsGradient.h */,
+				9657730123AB4494009D326F /* YLCustomStopsGradient.m */,
+				9657730323AB4538009D326F /* YLColorStop.h */,
+				9657730423AB4538009D326F /* YLColorStop.m */,
+				9600048B23B2190F00A6A7EE /* YLEffectStroke.h */,
+				9600048C23B2190F00A6A7EE /* YLEffectStroke.m */,
+				9679E5D8248F7AF100F5CE3C /* YLStroke.h */,
+				9679E5D9248F7AF100F5CE3C /* YLStroke.m */,
+				9603BCAB2473B42600A94784 /* YLClassObject.h */,
+				9603BCAC2473B42600A94784 /* YLClassObject.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		963E518A2399114B009800AF /* PSDParse */ = {
+			isa = PBXGroup;
+			children = (
+				963E518B2399114B009800AF /* YLPSDDescriptor.h */,
+				963E51C22399114B009800AF /* YLPSDDescriptor.m */,
+				963E51C42399114B009800AF /* YLPSDBaseSection.h */,
+				963E51912399114B009800AF /* YLPSDBaseSection.m */,
+				963E51BC2399114B009800AF /* YLPSDEngineData.h */,
+				963E51C32399114B009800AF /* YLPSDEngineData.m */,
+				963E518C2399114B009800AF /* colorData */,
+				963E51922399114B009800AF /* layerMask */,
+				963E51BD2399114B009800AF /* imageData */,
+				963E51C52399114B009800AF /* imageResource */,
+				963E51CE2399114B009800AF /* header */,
+			);
+			path = PSDParse;
+			sourceTree = "<group>";
+		};
+		963E518C2399114B009800AF /* colorData */ = {
+			isa = PBXGroup;
+			children = (
+				963E51902399114B009800AF /* YLPSDColorModeInfo.h */,
+				963E518E2399114B009800AF /* YLPSDColorModeInfo.m */,
+				963E518D2399114B009800AF /* YLPSDColorModeData.h */,
+				963E518F2399114B009800AF /* YLPSDColorModeData.m */,
+			);
+			path = colorData;
+			sourceTree = "<group>";
+		};
+		963E51922399114B009800AF /* layerMask */ = {
+			isa = PBXGroup;
+			children = (
+				963E51AB2399114B009800AF /* YLPSDLayerAndMask.h */,
+				963E51932399114B009800AF /* YLPSDLayerAndMask.m */,
+				963E51B12399114B009800AF /* YLPSDLayerAndMaskInfo.h */,
+				963E51942399114B009800AF /* YLPSDLayerAndMaskInfo.m */,
+				963E51952399114B009800AF /* layerInfo */,
+				963E51AC2399114B009800AF /* mask */,
+				963E51B22399114B009800AF /* globalMask */,
+				963E51B72399114B009800AF /* additional */,
+			);
+			path = layerMask;
+			sourceTree = "<group>";
+		};
+		963E51952399114B009800AF /* layerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				963E51A82399114B009800AF /* YLPSDChannelImage.h */,
+				963E51962399114B009800AF /* YLPSDChannelImage.m */,
+				963E51A92399114B009800AF /* YLPSDLayerInfoInfo.h */,
+				963E51972399114B009800AF /* YLPSDLayerInfoInfo.m */,
+				963E51982399114B009800AF /* YLPSDLayerInfo.h */,
+				963E51AA2399114B009800AF /* YLPSDLayerInfo.m */,
+				963E51992399114B009800AF /* channel */,
+				963E51A22399114B009800AF /* blend */,
+				963E51A72399114B009800AF /* layerRecord */,
+			);
+			path = layerInfo;
+			sourceTree = "<group>";
+		};
+		963E51992399114B009800AF /* channel */ = {
+			isa = PBXGroup;
+			children = (
+				963E51A12399114B009800AF /* YLPSDChannel.h */,
+				963E519C2399114B009800AF /* YLPSDChannel.m */,
+				963E51A02399114B009800AF /* YLPSDChannelInfo.h */,
+				963E519D2399114B009800AF /* YLPSDChannelInfo.m */,
+			);
+			path = channel;
+			sourceTree = "<group>";
+		};
+		963E51A22399114B009800AF /* blend */ = {
+			isa = PBXGroup;
+			children = (
+				963E51A32399114B009800AF /* YLPSDLayerBlendRange.h */,
+				963E51A52399114B009800AF /* YLPSDLayerBlendRange.m */,
+				963E51A42399114B009800AF /* YLPSDLayerBlendRangeInfo.h */,
+				963E51A62399114B009800AF /* YLPSDLayerBlendRangeInfo.m */,
+			);
+			path = blend;
+			sourceTree = "<group>";
+		};
+		963E51A72399114B009800AF /* layerRecord */ = {
+			isa = PBXGroup;
+			children = (
+				963E51FA239DE946009800AF /* YLPSDLayerRecord.h */,
+				963E51F8239DE946009800AF /* YLPSDLayerRecord.m */,
+				963E51F9239DE946009800AF /* YLPSDLayerRecordInfo.h */,
+				963E51FB239DE946009800AF /* YLPSDLayerRecordInfo.m */,
+			);
+			path = layerRecord;
+			sourceTree = "<group>";
+		};
+		963E51AC2399114B009800AF /* mask */ = {
+			isa = PBXGroup;
+			children = (
+				963E51AD2399114B009800AF /* YLPSDLayerMaskInfo.h */,
+				963E51AE2399114B009800AF /* YLPSDLayerMask.m */,
+				963E51AF2399114B009800AF /* YLPSDLayerMaskInfo.m */,
+				963E51B02399114B009800AF /* YLPSDLayerMask.h */,
+			);
+			path = mask;
+			sourceTree = "<group>";
+		};
+		963E51B22399114B009800AF /* globalMask */ = {
+			isa = PBXGroup;
+			children = (
+				963E51B32399114B009800AF /* YLPSDGlobalLayerMaskInfo.m */,
+				963E51B42399114B009800AF /* YLPSDGlobalLayerMask.h */,
+				963E51B52399114B009800AF /* YLPSDGlobalLayerMaskInfo.h */,
+				963E51B62399114B009800AF /* YLPSDGlobalLayerMask.m */,
+			);
+			path = globalMask;
+			sourceTree = "<group>";
+		};
+		963E51B72399114B009800AF /* additional */ = {
+			isa = PBXGroup;
+			children = (
+				963E51BA2399114B009800AF /* YLPSDAdditionalLayer.h */,
+				963E51B82399114B009800AF /* YLPSDAdditionalLayer.m */,
+				963E51B92399114B009800AF /* YLPSDAdditionalLayerInfo.h */,
+				963E51BB2399114B009800AF /* YLPSDAdditionalLayerInfo.m */,
+				963E5201239E38FD009800AF /* YLEffectLayerInfo.h */,
+				963E5202239E38FD009800AF /* YLEffectLayerInfo.m */,
+			);
+			path = additional;
+			sourceTree = "<group>";
+		};
+		963E51BD2399114B009800AF /* imageData */ = {
+			isa = PBXGroup;
+			children = (
+				963E51BE2399114B009800AF /* YLPSDImageDataInfo.h */,
+				963E51C02399114B009800AF /* YLPSDImageDataInfo.m */,
+				963E51BF2399114B009800AF /* YLPSDImageData.h */,
+				963E51C12399114B009800AF /* YLPSDImageData.m */,
+			);
+			path = imageData;
+			sourceTree = "<group>";
+		};
+		963E51C52399114B009800AF /* imageResource */ = {
+			isa = PBXGroup;
+			children = (
+				963E51C62399114B009800AF /* YLPSDImageResource.h */,
+				963E51CA2399114B009800AF /* YLPSDImageResource.m */,
+				963E51C82399114B009800AF /* YLPSDImageResourceBlock.h */,
+				963E51CC2399114B009800AF /* YLPSDImageResourceBlock.m */,
+				963E51C92399114B009800AF /* YLPSDImageResourceInfo.h */,
+				963E51CD2399114B009800AF /* YLPSDImageResourceInfo.m */,
+				963E51CB2399114B009800AF /* YLPSDImageResourceBlockInfo.h */,
+				963E51C72399114B009800AF /* YLPSDImageResourceBlockInfo.m */,
+			);
+			path = imageResource;
+			sourceTree = "<group>";
+		};
+		963E51CE2399114B009800AF /* header */ = {
+			isa = PBXGroup;
+			children = (
+				963E51CF2399114B009800AF /* YLPSDHeader.h */,
+				963E51D12399114B009800AF /* YLPSDHeader.m */,
+				963E51D02399114B009800AF /* YLPSDHeaderInfo.h */,
+				963E51D22399114B009800AF /* YLPSDHeaderInfo.m */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		965772FA23AA15CB009D326F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				965772FB23AA15CC009D326F /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9679E5C92488C4DA00F5CE3C /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2E022547BB2500175D6A /* createView */,
+				96D0922A24AC413D0059F388 /* Object */,
+				9679E5CA2488C52000F5CE3C /* YLCodeBuilder.h */,
+				9679E5CB2488C52000F5CE3C /* YLCodeBuilder.m */,
+				9679E5D2248E474E00F5CE3C /* YLCodeBuilder+Effect.h */,
+				9679E5D3248E474E00F5CE3C /* YLCodeBuilder+Effect.m */,
+				9679E5CD2489E67600F5CE3C /* YLMethodManager.h */,
+				9679E5CE2489E67600F5CE3C /* YLMethodManager.m */,
+				9679E61D2493307100F5CE3C /* YLMethodManager+Init.h */,
+				9679E61E2493307100F5CE3C /* YLMethodManager+Init.m */,
+				9679E5DB248F810200F5CE3C /* YLCodeBuilder+OriginEffect.h */,
+				9679E5DC248F810200F5CE3C /* YLCodeBuilder+OriginEffect.m */,
+				9679E5DE24922EE500F5CE3C /* YLCodeBuilder+Shape.h */,
+				9679E5DF24922EE500F5CE3C /* YLCodeBuilder+Shape.m */,
+				9679E63424971C3500F5CE3C /* YLMethodManager+ReIndex.h */,
+				9679E63524971C3500F5CE3C /* YLMethodManager+ReIndex.m */,
+				9679E6D7249C633700F5CE3C /* YLMethodManager+Layout.h */,
+				9679E6D8249C633700F5CE3C /* YLMethodManager+Layout.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		96CD2E022547BB2500175D6A /* createView */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2E062547BB3600175D6A /* buttonbg.png */,
+				96CD2E072547BB3600175D6A /* Soldview.h */,
+				96CD2E052547BB3600175D6A /* Soldview.m */,
+				96CD2E042547BB3600175D6A /* textbg.png */,
+				96CD2E032547BB3600175D6A /* viewbg.png */,
+			);
+			path = createView;
+			sourceTree = "<group>";
+		};
+		96CE2B1A247F9E2C0020A983 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				96CE2B1B247F9E4C0020A983 /* UIView+SecureCoding.h */,
+				96CE2B1C247F9E4C0020A983 /* UIView+SecureCoding.m */,
+				96CE2B1E247FACA70020A983 /* UIImageView+SecureCoding.h */,
+				96CE2B1F247FACA70020A983 /* UIImageView+SecureCoding.m */,
+				9679E5C62488C4A900F5CE3C /* UIImage+Overlay.h */,
+				9679E5C72488C4A900F5CE3C /* UIImage+Overlay.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		96D0922A24AC413D0059F388 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				96D0922B24AC41690059F388 /* YLPropertyT.h */,
+				96D0922C24AC41690059F388 /* YLPropertyT.m */,
+				96D0922E24AC99840059F388 /* YLClassT.h */,
+				96D0922F24AC99840059F388 /* YLClassT.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9605919422F18499005F180F /* ReadPSD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960591C122F1849B005F180F /* Build configuration list for PBXNativeTarget "ReadPSD" */;
+			buildPhases = (
+				9605919122F18499005F180F /* Sources */,
+				9605919222F18499005F180F /* Frameworks */,
+				9605919322F18499005F180F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadPSD;
+			productName = ReadPSD;
+			productReference = 9605919522F18499005F180F /* ReadPSD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960591AC22F1849B005F180F /* ReadPSDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960591C422F1849B005F180F /* Build configuration list for PBXNativeTarget "ReadPSDTests" */;
+			buildPhases = (
+				960591A922F1849B005F180F /* Sources */,
+				960591AA22F1849B005F180F /* Frameworks */,
+				960591AB22F1849B005F180F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960591AF22F1849B005F180F /* PBXTargetDependency */,
+			);
+			name = ReadPSDTests;
+			productName = ReadPSDTests;
+			productReference = 960591AD22F1849B005F180F /* ReadPSDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960591B722F1849B005F180F /* ReadPSDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960591C722F1849B005F180F /* Build configuration list for PBXNativeTarget "ReadPSDUITests" */;
+			buildPhases = (
+				960591B422F1849B005F180F /* Sources */,
+				960591B522F1849B005F180F /* Frameworks */,
+				960591B622F1849B005F180F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960591BA22F1849B005F180F /* PBXTargetDependency */,
+			);
+			name = ReadPSDUITests;
+			productName = ReadPSDUITests;
+			productReference = 960591B822F1849B005F180F /* ReadPSDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9605918D22F18499005F180F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = amber;
+				TargetAttributes = {
+					9605919422F18499005F180F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					960591AC22F1849B005F180F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9605919422F18499005F180F;
+					};
+					960591B722F1849B005F180F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9605919422F18499005F180F;
+					};
+				};
+			};
+			buildConfigurationList = 9605919022F18499005F180F /* Build configuration list for PBXProject "ReadPSD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9605918C22F18499005F180F;
+			productRefGroup = 9605919622F18499005F180F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9605919422F18499005F180F /* ReadPSD */,
+				960591AC22F1849B005F180F /* ReadPSDTests */,
+				960591B722F1849B005F180F /* ReadPSDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9605919322F18499005F180F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960591A522F1849B005F180F /* LaunchScreen.storyboard in Resources */,
+				960591A222F1849B005F180F /* Assets.xcassets in Resources */,
+				96C17C4623A74514007F0CA3 /* test2.psd in Resources */,
+				96CD2E082547BB3700175D6A /* viewbg.png in Resources */,
+				96CD2E0B2547BB3700175D6A /* buttonbg.png in Resources */,
+				96CD2E092547BB3700175D6A /* textbg.png in Resources */,
+				960591A022F18499005F180F /* Main.storyboard in Resources */,
+				9657731823B0C183009D326F /* test.psd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960591AB22F1849B005F180F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960591B622F1849B005F180F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9605919122F18499005F180F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E51D92399114B009800AF /* YLDataProcess.m in Sources */,
+				963E51DE2399114B009800AF /* YLPSDLayerAndMaskInfo.m in Sources */,
+				963E51E22399114B009800AF /* YLPSDChannelInfo.m in Sources */,
+				9657731323ACC41D009D326F /* YLEffect.m in Sources */,
+				963E51FC239DE946009800AF /* YLPSDLayerRecord.m in Sources */,
+				96D0922D24AC41690059F388 /* YLPropertyT.m in Sources */,
+				963E51E12399114B009800AF /* YLPSDChannel.m in Sources */,
+				9603BCAD2473B42600A94784 /* YLClassObject.m in Sources */,
+				9679E6D9249C633700F5CE3C /* YLMethodManager+Layout.m in Sources */,
+				963E5200239E3370009800AF /* YLFileProcess.m in Sources */,
+				963E51E02399114B009800AF /* YLPSDLayerInfoInfo.m in Sources */,
+				963E51DB2399114B009800AF /* YLPSDColorModeData.m in Sources */,
+				963E51D42399114B009800AF /* YLImageProcess.m in Sources */,
+				9679E63624971C3500F5CE3C /* YLMethodManager+ReIndex.m in Sources */,
+				963E51F42399114B009800AF /* YLPSDImageResourceBlock.m in Sources */,
+				963E51E72399114B009800AF /* YLPSDLayerInfo.m in Sources */,
+				9657730223AB4494009D326F /* YLCustomStopsGradient.m in Sources */,
+				963E51EC2399114B009800AF /* YLPSDAdditionalLayer.m in Sources */,
+				963E51E52399114B009800AF /* YLPSDLayerBlendRange.m in Sources */,
+				963E51D62399114B009800AF /* YLPascalString.m in Sources */,
+				9657731023AC7232009D326F /* YLCircularRadius.m in Sources */,
+				9679E5C82488C4A900F5CE3C /* UIImage+Overlay.m in Sources */,
+				963E51FD239DE946009800AF /* YLPSDLayerRecordInfo.m in Sources */,
+				963E51F72399114B009800AF /* YLPSDHeaderInfo.m in Sources */,
+				963E51E82399114B009800AF /* YLPSDLayerMask.m in Sources */,
+				963E51DD2399114B009800AF /* YLPSDLayerAndMask.m in Sources */,
+				9679E5D4248E474E00F5CE3C /* YLCodeBuilder+Effect.m in Sources */,
+				963E51F32399114B009800AF /* YLPSDImageResource.m in Sources */,
+				963E51DF2399114B009800AF /* YLPSDChannelImage.m in Sources */,
+				9679E5DD248F810200F5CE3C /* YLCodeBuilder+OriginEffect.m in Sources */,
+				963E51DA2399114B009800AF /* YLPSDColorModeInfo.m in Sources */,
+				9605919D22F18499005F180F /* ViewController.m in Sources */,
+				963E51F02399114B009800AF /* YLPSDDescriptor.m in Sources */,
+				9600048D23B2190F00A6A7EE /* YLEffectStroke.m in Sources */,
+				963E51F12399114B009800AF /* YLPSDEngineData.m in Sources */,
+				960591A822F1849B005F180F /* main.m in Sources */,
+				9679E5E024922EE500F5CE3C /* YLCodeBuilder+Shape.m in Sources */,
+				963E51EE2399114B009800AF /* YLPSDImageDataInfo.m in Sources */,
+				96D0923024AC99840059F388 /* YLClassT.m in Sources */,
+				963E51F62399114B009800AF /* YLPSDHeader.m in Sources */,
+				9679E5CC2488C52000F5CE3C /* YLCodeBuilder.m in Sources */,
+				96CE2B20247FACA70020A983 /* UIImageView+SecureCoding.m in Sources */,
+				963E5203239E38FD009800AF /* YLEffectLayerInfo.m in Sources */,
+				963E51EF2399114B009800AF /* YLPSDImageData.m in Sources */,
+				963E51DC2399114B009800AF /* YLPSDBaseSection.m in Sources */,
+				963E51EB2399114B009800AF /* YLPSDGlobalLayerMask.m in Sources */,
+				96CD2E0A2547BB3700175D6A /* Soldview.m in Sources */,
+				96CE2B1D247F9E4C0020A983 /* UIView+SecureCoding.m in Sources */,
+				963E51ED2399114B009800AF /* YLPSDAdditionalLayerInfo.m in Sources */,
+				963E51EA2399114B009800AF /* YLPSDGlobalLayerMaskInfo.m in Sources */,
+				963E51F22399114B009800AF /* YLPSDImageResourceBlockInfo.m in Sources */,
+				9657730823AB4D66009D326F /* YLRGBAGradient.m in Sources */,
+				9657731623B0B3FC009D326F /* YLInsideShadow.m in Sources */,
+				963E51F52399114B009800AF /* YLPSDImageResourceInfo.m in Sources */,
+				9657730523AB4538009D326F /* YLColorStop.m in Sources */,
+				963E51D72399114B009800AF /* YLRGBA.m in Sources */,
+				9679E5DA248F7AF100F5CE3C /* YLStroke.m in Sources */,
+				9679E5CF2489E67600F5CE3C /* YLMethodManager.m in Sources */,
+				963E51E92399114B009800AF /* YLPSDLayerMaskInfo.m in Sources */,
+				963E51D32399114B009800AF /* YLLayerInfo.m in Sources */,
+				963E51D82399114B009800AF /* YLTextInfo.m in Sources */,
+				963E51D52399114B009800AF /* YLImageInfo.m in Sources */,
+				9679E61F2493307100F5CE3C /* YLMethodManager+Init.m in Sources */,
+				965772F923A9F04C009D326F /* YLBGRGBA.m in Sources */,
+				9605919A22F18499005F180F /* AppDelegate.m in Sources */,
+				965772FF23AB26C6009D326F /* YLGradient.m in Sources */,
+				963E51E62399114B009800AF /* YLPSDLayerBlendRangeInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960591A922F1849B005F180F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960591B222F1849B005F180F /* ReadPSDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960591B422F1849B005F180F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960591BD22F1849B005F180F /* ReadPSDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960591AF22F1849B005F180F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9605919422F18499005F180F /* ReadPSD */;
+			targetProxy = 960591AE22F1849B005F180F /* PBXContainerItemProxy */;
+		};
+		960591BA22F1849B005F180F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9605919422F18499005F180F /* ReadPSD */;
+			targetProxy = 960591B922F1849B005F180F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9605919E22F18499005F180F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9605919F22F18499005F180F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960591A322F1849B005F180F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960591A422F1849B005F180F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960591BF22F1849B005F180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		960591C022F1849B005F180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960591C222F1849B005F180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadPSD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ReadPSD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960591C322F1849B005F180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadPSD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ReadPSD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		960591C522F1849B005F180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadPSDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ReadPSDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadPSD.app/ReadPSD";
+			};
+			name = Debug;
+		};
+		960591C622F1849B005F180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadPSDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ReadPSDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadPSD.app/ReadPSD";
+			};
+			name = Release;
+		};
+		960591C822F1849B005F180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadPSDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ReadPSDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadPSD;
+			};
+			name = Debug;
+		};
+		960591C922F1849B005F180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadPSDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ReadPSDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadPSD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9605919022F18499005F180F /* Build configuration list for PBXProject "ReadPSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960591BF22F1849B005F180F /* Debug */,
+				960591C022F1849B005F180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960591C122F1849B005F180F /* Build configuration list for PBXNativeTarget "ReadPSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960591C222F1849B005F180F /* Debug */,
+				960591C322F1849B005F180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960591C422F1849B005F180F /* Build configuration list for PBXNativeTarget "ReadPSDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960591C522F1849B005F180F /* Debug */,
+				960591C622F1849B005F180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960591C722F1849B005F180F /* Build configuration list for PBXNativeTarget "ReadPSDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960591C822F1849B005F180F /* Debug */,
+				960591C922F1849B005F180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9605918D22F18499005F180F /* Project object */;
+}
